@@ -85,7 +85,7 @@ class _PageCalendarState extends State<PageCalendar> {
                   children: [
                     const Text(
                       "ÂM LỊCH",
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
                     ),
                     const SizedBox(
                       height: 10,
@@ -295,7 +295,6 @@ class WidgetCalendarItem extends StatelessWidget {
         child: Container(
           margin: const EdgeInsets.only(bottom: 10, left: 5, right: 5),
           padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 5),
-          // width: 36,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
               color: onValidateSelected.call() == true ? colorSelected ?? Colors.red : colorBackground ?? Colors.white,
